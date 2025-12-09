@@ -1,8 +1,14 @@
-/** @type {import('next-sitemap').IConfig} */
+/** @type {import('next-sitemap').IConfig} */ 
 module.exports = {
-  siteUrl: 'https://nutri-zeus.vercel.app',
-  generateRobotsTxt: true, // génère aussi un robots.txt parfait
-  sitemapSize: 7000,
-  // optionnel : exclure des pages si tu veux
-  // exclude: ['/admin/*', '/secret'],
+    siteUrl: process.env.BASE_URL,
+    generateRobotsTxt: true,
+    changefreq: "weekly",
+    priority: 0.7,
+    sitemapSize: 5000,
+    exclude: [],
+    robotsTextOptions: {
+        policies: [
+            {userAgent: '*', allow: '/'},
+        ]
+    }
 }
