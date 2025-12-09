@@ -32,6 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
+      <head>
+        <meta name="google-site-verification" content="7f26d15767266dc6" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable}   antialiased`}
       >
