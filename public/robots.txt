@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nutri-zeus.vercel.app
+
+# Sitemaps
+Sitemap: https://nutri-zeus.vercel.app/sitemap.xml
