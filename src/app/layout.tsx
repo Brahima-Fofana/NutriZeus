@@ -18,7 +18,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NutriZeus",
+  title: {
+    default: "NutriZeus",
+    template: "NutriZeus: %s"
+  },
+  applicationName: "NutriZeus",
   description: "Plateforme officielle de consultation des proteines des aliments en Côte d'ivoire",
   icons: {
     icon: "/logo-blanc.png"
