@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["D:/PROJET DEV/projet-nutrition/src/app/error.tsx"],"sourcesContent":["\"use client\";\r\n\r\nexport default function ErrorPage() {\r\n    return (\r\n        <section>\r\n            <h1 className=\"font-semibold\">Aliment not found</h1>\r\n        </section>\r\n    );\r\n}"],"names":["c","_c","ErrorPage","$","$i","Symbol","for","t0"],"mappings":";;;;;AAAa,SAAAA,CAAA,IAAAC,EAAA;AAAb,YAAY;;;AAEG;IAAA,MAAAE,CAAA,OAAAF,gLAAA,EAAA;IAAA,IAAAE,CAAA,CAAA,EAAA,KAAA,oEAAA;QAAA,IAAA,IAAAC,EAAA,GAAA,GAAAA,EAAA,GAAA,GAAAA,EAAA,IAAA,EAAA;YAAAD,CAAA,CAAAC,EAAA,CAAA,GAAAC,MAAA,CAAAC,GAAA,CAAA;QAAA;QAAAH,CAAA,CAAA,EAAA,GAAA;IAAA;IAAA,IAAAI,EAAA;IAAA,IAAAJ,CAAA,CAAA,EAAA,KAAAE,MAAA,CAAAC,GAAA,CAAA,8BAAA;QAEPC,EAAA,iBAAA,6LAAA,OAEU;oCADN,6LAAA,EAAoD;gBAAtC,SAAe,EAAf,eAAe;0BAAC,iBAAiB,EAA/C,EAAoD,CACxD,EAFA,OAEU;;;;;;;;;;;QAAAJ,CAAA,CAAA,EAAA,GAAAI,EAAA;IAAA,OAAA;QAAAA,EAAA,GAAAJ,CAAA,CAAA,EAAA;IAAA;IAAA,OAFVI,EAEU;AAAA;KAJHL,UAAA","ignoreList":[]}}]
+}

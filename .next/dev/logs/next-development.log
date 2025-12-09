@@ -1,0 +1,14 @@
+[00:00:03.958] Server  LOG      ✓ Ready in 2.9s
+[00:00:15.467] Server  LOG      ○ Compiling / ...
+[00:00:25.936] Server  LOG     je suis execute cote client SwitchTheme
+[00:00:27.669] Browser LOG     je suis execute cote client SwitchTheme
+[00:00:27.669] Browser LOG     [2;38;2;124;124;124m%s[0m je suis execute cote client SwitchTheme
+[00:00:27.669] Browser WARN    Image with src "/logo-noir.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:04.771] Server  LOG     je suis execute cote client SwitchTheme
+[00:02:08.742] Browser LOG     je suis execute cote client SwitchTheme
+[00:02:08.742] Browser LOG     [2;38;2;124;124;124m%s[0m je suis execute cote client SwitchTheme
+[00:02:08.743] Browser WARN    Image with src "/logo-noir.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:12.890] Browser LOG     je suis execute cote client SwitchTheme
+[00:02:12.890] Browser LOG     [2;38;2;124;124;124m%s[0m je suis execute cote client SwitchTheme
+[00:02:13.586] Browser WARN    Image with src "/logo-blanc.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:21.030] Server  LOG      ○ Compiling /aliment/[slug] ...
