@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///D:/PROJET%20DEV/projet-nutrition/src/app/aliment/%5Bslug%5D/page.tsx"],"sourcesContent":["import { foods } from \"@/data/data\";\r\n\r\nasync function getAliment({params}: {params: Promise<{slug: string}>}) {\r\n    const { slug } =  await params;\r\n}\r\n\r\nexport default async function AlimentPage({params}: {params: Promise<{slug: string}>}) {\r\n    const { slug } = await params;\r\n\r\n\r\n    return (\r\n      <main className=\"min-h-screen flex flex-col justify-center items-center\">\r\n        <section className=\"\">\r\n            <h1 className=\"font-semibold text-center pb-2 text-2xl\">Page Aliment</h1>\r\n        </section>\r\n    </main>\r\n    );\r\n}"],"names":[],"mappings":";;;;;;AAEA,eAAe,WAAW,EAAC,MAAM,EAAoC;IACjE,MAAM,EAAE,IAAI,EAAE,GAAI,MAAM;AAC5B;AAEe,eAAe,YAAY,EAAC,MAAM,EAAoC;IACjF,MAAM,EAAE,IAAI,EAAE,GAAG,MAAM;IAGvB,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;YAAQ,WAAU;sBACf,cAAA,8OAAC;gBAAG,WAAU;0BAA0C;;;;;;;;;;;;;;;;AAIpE"}}]
+}
