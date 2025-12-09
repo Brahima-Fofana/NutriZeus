@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///D:/PROJET%20DEV/projet-nutrition/src/app/page.tsx"],"sourcesContent":["export default function HomePage() {\n  return (\n    <main className=\"min-h-screen flex flex-col justify-center items-center\">\n      <section className=\"\">\n        <h1 className=\"font-semibold text-center pb-2\">Welcome to NutriZeus</h1>\n        <p>\n          Decouvrer nos composant alimentaire a partir de votre plat favorie,\n          utilise la recherche avant de commencer\n        </p>\n        <ComboboxDemo />\n      </section>\n    </main>\n  );\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;kBACd,cAAA,8OAAC;YAAQ,WAAU;;8BACjB,8OAAC;oBAAG,WAAU;8BAAiC;;;;;;8BAC/C,8OAAC;8BAAE;;;;;;8BAIH,8OAAC;;;;;;;;;;;;;;;;AAIT"}}]
-}
